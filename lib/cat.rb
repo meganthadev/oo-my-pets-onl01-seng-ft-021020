@@ -12,5 +12,9 @@ class Cat
     @@all << self
     owner.cats << self
   end  
+  
+   def self.all
+    @@all
+  end
 
 end
