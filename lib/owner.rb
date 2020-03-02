@@ -29,4 +29,12 @@ class Owner
     all.clear
   end   
   
+  def buy_cat
+    Cat.select
+  end
+  
+  def buy_dog 
+    Dog.select
+  end  
+  
 end  
